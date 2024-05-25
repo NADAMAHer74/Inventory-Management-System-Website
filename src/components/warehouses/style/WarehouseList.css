@@ -1,0 +1,14 @@
+.warehouseList{
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+
+.warehouseList .warehouseModule{
+    width: 350px;
+    height: 210px;
+}

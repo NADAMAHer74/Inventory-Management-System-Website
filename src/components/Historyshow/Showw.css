@@ -1,0 +1,41 @@
+.showw {
+flex:4;
+background-color:  #f6fff5;
+}
+
+.showtable {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 20px;
+    max-width: 800px;
+    -webkit-box-shadow: -9px -2px 22px -3px rgba(0,0,0,0.83);
+    -moz-box-shadow: -9px -2px 22px -3px rgba(0,0,0,0.83);
+    box-shadow: -9px -2px 22px -3px rgba(0,0,0,0.83);
+
+}
+
+.showtable thead tr{
+    background-color: rgb(244, 223, 216);
+    color: rgb(84, 65, 164);
+    
+}
+.showtable th,
+.showtable td {
+    padding: 12px 15px;
+
+}
+
+.showtable tbody tr {
+    border-bottom: 1px solid #5ae758
+}
+
+.showtable tbody tr:nth-of-type(even){
+    background-color: rgb(225, 227, 219);
+}
+
+
+.table{
+    margin-top: 80px;
+}
+
+

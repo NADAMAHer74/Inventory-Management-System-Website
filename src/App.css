@@ -1,0 +1,14 @@
+*{
+  margin: 0%;
+}
+
+.App{
+  background-color:  #f6fff5;
+}
+.containerr{
+  display: flex;
+  margin-top: 10px;
+  background-color: rgb(42, 47, 64);
+  --bs-gutter-x: 0;
+
+}

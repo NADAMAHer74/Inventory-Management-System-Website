@@ -1,0 +1,55 @@
+.main-header{
+    width: 97.25%;
+    padding: 20px;
+    font-family: cursive;
+    color: rgb(247, 246, 240);
+    display: flex;  
+    justify-content: space-between;
+}
+.main-header .Home{
+color:rgb(247, 246, 240);
+background-color:#27376f;
+border-radius: 20%;
+padding-bottom: 6px;
+border: hidden;
+
+-webkit-box-shadow: -9px -2px 22px -3px rgba(0,0,0,0.83);
+-moz-box-shadow: -9px -2px 22px -3px rgba(0,0,0,0.83);
+box-shadow: -9px -2px 22px -3px rgba(0,0,0,0.83);
+}
+.main-header .home img{
+    width: 40px;
+    height:40px;
+}
+.main-header .title{
+    display: flex;
+    color: #776f64;
+}
+.main-header .title img{
+    width: 40px;
+    height:40px;
+    padding-right: 5px;
+}
+.main-header .Add{
+    color:rgb(247, 246, 240);
+    border-radius: 20%;
+    background-color:rgb(8, 102, 8);
+    border:hidden;
+    -webkit-box-shadow: -9px -2px 22px -3px rgba(0,0,0,0.83);
+    -moz-box-shadow: -9px -2px 22px -3px rgba(0,0,0,0.83);
+    box-shadow: -9px -2px 22px -3px rgba(0,0,0,0.83);
+    }
+    .main-header .Add .add img{
+        width: 30px;
+        height:30px;
+        padding: 3px;
+        }
+
+        .main-header .Home a{
+            color: rgb(247, 246, 240);
+            text-decoration: none;
+        }
+        .main-header .Add a{
+            color: rgb(247, 246, 240);
+            text-decoration: none;
+        }

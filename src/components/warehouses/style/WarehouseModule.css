@@ -1,0 +1,98 @@
+.warehouseModule{
+    color: #cbccd1;
+    font-family: cursive;
+    background-color: #776f64;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 40px;
+
+    -webkit-box-shadow: -9px -2px 22px -3px rgba(0,0,0,0.83);
+-moz-box-shadow: -9px -2px 22px -3px rgba(0,0,0,0.83);
+box-shadow: -9px -2px 22px -3px rgba(0,0,0,0.83);
+}
+
+.warehouseModule::after{
+    content: "";
+    display: block;
+    clear: both;    
+}
+
+
+
+.warehouseModule .Update{
+    margin: 10px;
+    padding: auto;
+    font-size: 15px;
+    background-color: #fff7e5;
+    color: rgb(247, 240, 240);
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+    -webkit-box-shadow: -9px -2px 22px -3px rgba(105, 103, 103, 0.83);
+    -moz-box-shadow: -9px -2px 22px -3px rgba(105, 103, 103, 0.83);
+    box-shadow: -9px -2px 22px -3px rgba(105, 103, 103, 0.83);
+}
+.warehouseModule .Delete,
+.warehouseModule .show{
+    margin: 10px;
+    padding: auto;
+    background-color: #fff7e5;
+    color: rgb(247, 246, 240);
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+    -webkit-box-shadow: -9px -2px 22px -3px rgba(105, 103, 103, 0.83);
+    -moz-box-shadow: -9px -2px 22px -3px rgba(105, 103, 103, 0.83);
+    box-shadow: -9px -2px 22px -3px rgba(105, 103, 103, 0.83);
+
+}
+
+.warehouseModule .warehouseNumber .font1,
+.warehouseModule .warehouseName .font2,
+.warehouseModule .warehouseLocation .font3,
+.warehouseModule .warehouseStatus .font4
+{
+    font-size: 20px;
+    background-color:#776f64;
+}
+
+.warehouseName,
+.warehouseNumber,
+.warehouseLocation,
+.warehouseStatus
+{
+    background-color: #776f64;
+}
+
+.warehouseModule .bodyy{
+    float: left;
+    background-color: #776f64;
+
+}
+.warehouseModule .botton{
+    float: left;
+    background-color: #776f64;
+    margin-top: 5px;
+    width: 278px;
+    text-align: center;
+}
+
+
+.warehouseModule .botton .Update a,
+.warehouseModule .botton .Delete a,
+.warehouseModule .botton .show a{
+    color: black;
+    text-decoration: none;
+    background-color: #fff7e5;
+
+}
+
+/* .warehouseModule .botton .Update  :hover ,
+.warehouseModule .botton .Delete :hover ,
+.warehouseModule .botton .show :hover {
+    background-color: #c3a3bb;
+} */
+
+
